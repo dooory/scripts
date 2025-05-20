@@ -1,0 +1,19 @@
+# Starts waybar hot reload script
+~/scripts/launch-waybar.sh &
+
+# Autostarting programs
+hyprpaper &
+spotify &
+discord-canary &
+kitty &
+exec mako &
+
+
+# Starts firefox, waits for it to open, and then moves it to workspace 2
+firefox &
+
+while ! hyprctl clients | grep -q "Firefox"; do
+  sleep 0.2
+done
+
+hyprctl dispatch movetoworkspace 2, class:firefox
