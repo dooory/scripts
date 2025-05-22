@@ -1,13 +1,10 @@
-# Starts waybar hot reload script
-~/scripts/launch-waybar.sh &
-
 # Autostarting programs
 hyprpaper &
 spotify &
 discord-canary &
 kitty &
-exec mako &
-
+mako &
+waybar &
 
 # Starts firefox, waits for it to open, and then moves it to workspace 2
 firefox &
