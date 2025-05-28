@@ -1,3 +1,4 @@
+#!/bin/bash
 # Autostarting programs
 hyprpaper &
 spotify &
