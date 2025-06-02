@@ -2,7 +2,7 @@
 # Autostarting programs
 hyprpaper &
 spotify &
-discord-canary &
+discord &
 kitty &
 mako &
 waybar &
